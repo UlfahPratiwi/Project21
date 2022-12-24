@@ -51,7 +51,8 @@
 
 22. Pada dialog Heatmap (Kernel Density Estimation), kita akan menggunakan parameter yang sama seperti sebelumnya. Pilih Radius sebagai 5000 meter dan Weight from field sebagai weight. Atur ukuran Pixel X dan ukuran Pixel Y menjadi 50 meter. Biarkan Kernel membentuk nilai default Quartic. Klik Jalankan.
 
-        Note :
+      Note :
+        
 Parameter Radius from field memungkinkan Anda menentukan radius pencarian dinamis untuk setiap titik. Ini dapat digunakan bersama dengan Bobot dari bidang untuk memiliki kontrol yang lebih baik tentang bagaimana pengaruh setiap titik tersebar.
 
 23. Setelah pemrosesan selesai, lapisan raster baru bernama OUTPUT akan dimuat. Visualisasi default jelek karena menggunakan penyaji abu-abu Singleband. Klik tombol panel Open the Layer Styling.
@@ -59,6 +60,7 @@ Parameter Radius from field memungkinkan Anda menentukan radius pencarian dinami
 24. Ubah render menjadi Singleband Pseudocolor dan pilih jalur warna Merah. Lapisan sekarang terlihat seperti visualisasi peta panas yang telah kita buat sebelumnya.
 
        Note :
+       
 Perhatikan bahwa layer OUTPUT pada panel Layers memiliki legenda tetapi layer 2019-02-surrey-street tidak. Masalah umum saat menggunakan lapisan peta panas yang dibuat dengan perender Peta Panas adalah kurangnya legenda. Katakanlah Anda ingin menggunakan peta panas di Tata Letak Cetak dan menambahkan legenda. Peta panas raster yang dibuat dengan metode algoritme pemrosesan Peta Panas memungkinkan hal ini.
 
 
